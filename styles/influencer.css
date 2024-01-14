@@ -119,6 +119,8 @@ nav li a{
     padding: 0 85px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
     gap: 10px;
 }
 .popular-collection .popular-collection-card-container .card{
@@ -275,6 +277,7 @@ footer{
     .featured .img-container {
         text-align: center;
         width: 100%;
+        margin: 0 auto;
     }
 
     .sponsors {
@@ -346,5 +349,6 @@ footer{
     .popular-collection .popular-collection-card-container {
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
+        align-items: center;
     }
 }
