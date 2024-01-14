@@ -10,8 +10,6 @@
 }
 
 body{
-    width: 100%;
-    max-width: 1440px;
     font-family: 'Inter', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
@@ -116,16 +114,16 @@ nav li a{
     text-align: center;
     margin: 0 auto;
     width: 100%;
-    padding: 0 85px;
+    padding: 0 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     gap: 10px;
 }
 .popular-collection .popular-collection-card-container .card{
-    width: 280px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
@@ -138,6 +136,7 @@ nav li a{
 }
 .popular-collection .popular-collection-card-container .card .img img{
     width: 100%;
+    object-fit: cover;
 }
 .card-content .card-title{
     color: #18191F;
@@ -190,8 +189,9 @@ nav li a{
 .featured .img-container{
     width: 40%;
 }
-.featured .img-container .img img{
+.featured .img-container img{
     width: 100%;
+
 }
 .featured .featured-content{
     width: 60%;
